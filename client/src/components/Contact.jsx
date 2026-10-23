@@ -33,7 +33,7 @@ export default function Contact() {
       '*Portfolio enquiry*',
       '',
       `*Name:*  ${form.name.trim()}`,
-      `*Email:*  ${form.email.trim() || '—'}`,
+      `*Email:*  ${form.email.trim() || '-'}`,
       '',
       '*Message*',
       form.message.trim(),
@@ -120,7 +120,7 @@ export default function Contact() {
           </button>
 
           <p className="form-note">
-            This opens WhatsApp with your message ready to send — nothing is sent until you
+            This opens WhatsApp with your message ready to send - nothing is sent until you
             press send there. Prefer email?{' '}
             <a href={`mailto:${profile.email}`}>
               {profile.email} <ArrowUpRight width={13} height={13} />

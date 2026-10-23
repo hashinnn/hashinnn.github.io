@@ -19,7 +19,7 @@ export default function Experience() {
               <div>
                 <h3 className="exp-role">{job.role}</h3>
                 <p className="exp-org">
-                  <strong>{job.org}</strong> — {job.orgNote}
+                  <strong>{job.org}</strong> - {job.orgNote}
                 </p>
 
                 <ul className="exp-list">
@@ -32,7 +32,7 @@ export default function Experience() {
                   <figure className="exp-quote">
                     <blockquote>{job.quote.text}</blockquote>
                     <figcaption>
-                      {job.quote.by} <i>— {job.quote.role}</i>
+                      {job.quote.by} <i>- {job.quote.role}</i>
                     </figcaption>
                   </figure>
                 )}

@@ -29,7 +29,7 @@ export default function About({ onZoom }) {
             <figure className="polaroid" key={p.src} style={{ '--tilt': `${p.tilt}deg` }}>
               <button
                 className="polaroid-shot"
-                onClick={() => onZoom({ img: p.src, title: p.caption.replace('\n', ' — ') })}
+                onClick={() => onZoom({ img: p.src, title: p.caption.replace('\n', ' - ') })}
                 aria-label={`View ${p.caption.replace('\n', ' ')} full size`}
               >
                 <img src={p.src} alt={p.caption.replace('\n', ' ')} loading="lazy" />

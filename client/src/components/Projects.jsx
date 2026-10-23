@@ -23,7 +23,7 @@ export default function Projects({ onZoom }) {
             <article className="project-card reveal" key={project.id} data-reveal-delay={i * 80}>
               <button
                 className="project-shot"
-                onClick={() => onZoom({ img: project.image, title: `${project.title} — ${project.award}` })}
+                onClick={() => onZoom({ img: project.image, title: `${project.title} - ${project.award}` })}
                 aria-label={`View the ${project.title} screenshot full size`}
               >
                 <img src={project.image} alt={project.title} loading="lazy" />
@@ -54,7 +54,7 @@ export default function Projects({ onZoom }) {
                             href={link.href}
                             target="_blank"
                             rel="noreferrer"
-                            aria-label={`${linkLabel[link.kind] ?? 'Open'} — ${project.title}`}
+                            aria-label={`${linkLabel[link.kind] ?? 'Open'} - ${project.title}`}
                             title={linkLabel[link.kind]}
                           >
                             <LinkIcon width={22} height={22} />

@@ -83,7 +83,7 @@ export default function Certifications({ onOpen }) {
         <p className="cert-hint">
           {narrow
             ? 'Swipe through, tap any to view.'
-            : 'Hover to lift one out, click to open it — then use the arrows to step through the rest.'}
+            : 'Hover to lift one out, click to open it - then use the arrows to step through the rest.'}
         </p>
 
         {narrow ? (

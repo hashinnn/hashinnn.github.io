@@ -39,6 +39,18 @@ export default function Journey({ onZoom }) {
                     <img src={panel.image} alt={panel.caption} loading="lazy" />
                   </button>
 
+                  {panel.image2 && (
+                    <button
+                      className="frame-window frame-window--inset"
+                      onClick={() =>
+                        onZoom({ img: panel.image2, title: panel.caption2 || panel.caption })
+                      }
+                      aria-label={`View ${panel.caption2 || 'second image'} full size`}
+                    >
+                      <img src={panel.image2} alt={panel.caption2 || panel.caption} loading="lazy" />
+                    </button>
+                  )}
+
                   <span className="frame-slate">{panel.caption}</span>
                 </div>
 
