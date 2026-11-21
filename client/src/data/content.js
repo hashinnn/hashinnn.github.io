@@ -59,7 +59,7 @@ export const about = {
     { src: asset('/assets/about/aws-hackathon.webp'), caption: '2nd place\nAWS x NYP', tilt: -6 },
     { src: asset('/assets/about/genlink-presentation.webp'), caption: 'Outstanding\nProject Presentation', tilt: 8 },
     { src: asset('/assets/about/suss-2026.webp'), caption: 'Bronze\nSUSS 2026', tilt: -3 },
-    { src: asset('/assets/about/aws-hackathon-2.webp'), caption: 'The team behind\nDeadlineIQ', tilt: 5 },
+    { src: asset('/assets/about/aws-hackathon-2.webp'), caption: 'The team behind\nEstateOps', tilt: 5 },
   ],
   // **double asterisks** mark the terms a skim-reader should catch.
   paragraphs: [
@@ -209,6 +209,7 @@ export const certifications = {
     { cat: 'Technical', title: 'Web Development Bootcamp - Ipasmo', img: asset('/assets/certs/ipasmo-web-dev-bootcamp.webp'), href: asset('/assets/certs/ipasmo-web-dev-bootcamp.pdf') },
     { cat: 'Technical', title: 'Analytics & Visualisation Challenge 2025 - SUSS', img: asset('/assets/certs/suss-avc-2025.webp'), href: asset('/assets/certs/suss-avc-2025.pdf') },
     { cat: 'Technical', title: 'METEOR Programme - Crater', img: asset('/assets/certs/crater-meteor.webp'), href: asset('/assets/docs/crater-meteor-certificate.png') },
+    { cat: 'Technical', title: 'SAS Academic Specialization - NYP', img: asset('/assets/certs/sas-academic.png'), href: asset('/assets/certs/sas-academic.png') },
     { cat: 'Academic', title: 'Edusave Merit Award 2024', img: asset('/assets/certs/edusave-edusavemerit2024.webp'), href: asset('/assets/certs/edusave-edusavemerit2024.webp') },
     { cat: 'Academic', title: 'Academic Achievement 2024', img: asset('/assets/certs/edusave-edusaveachievement2024.webp'), href: asset('/assets/certs/edusave-edusaveachievement2024.webp') },
     { cat: 'Academic', title: 'Academic Achievement 2023', img: asset('/assets/certs/edusave-edusaveachievement2023.webp'), href: asset('/assets/certs/edusave-edusaveachievement2023.webp') },
