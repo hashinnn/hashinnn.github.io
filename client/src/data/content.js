@@ -56,10 +56,10 @@ export const stats = {
 export const about = {
   heading: 'About Me',
   polaroids: [
-    { src: asset('/assets/about/aws-hackathon.webp'), caption: '2nd place\nAWS x NYP', tilt: -6 },
-    { src: asset('/assets/about/genlink-presentation.webp'), caption: 'Outstanding\nProject Presentation', tilt: 8 },
-    { src: asset('/assets/about/suss-2026.webp'), caption: 'Bronze\nSUSS 2026', tilt: -3 },
-    { src: asset('/assets/about/aws-hackathon-2.webp'), caption: 'The team behind\nEstateOps', tilt: 5 },
+    { src: asset('/assets/about/genlink-presentation.webp'), caption: 'Outstanding\nProject Presentation', tilt: -4 },
+    { src: asset('/assets/about/aws-hackathon.webp'), caption: '2nd place\nAWS x NYP', tilt: 7 },
+    { src: asset('/assets/about/aws-hackathon-2.webp'), caption: 'The team behind\nEstateOps', tilt: -2 },
+    { src: asset('/assets/about/suss-2026.webp'), caption: 'Bronze\nSUSS 2026', tilt: 5 },
   ],
   // **double asterisks** mark the terms a skim-reader should catch.
   paragraphs: [
